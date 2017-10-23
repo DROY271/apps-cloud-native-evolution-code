@@ -1,2 +1,12 @@
 server:
   port: 8080
+
+spring:
+  application:
+    name: ums-service
+
+security:
+  basic:
+    enabled: false
+
+billingEndpoint: //billing-service
